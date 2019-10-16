@@ -1,0 +1,164 @@
+.signUp, .logIn {
+    width:40%;
+
+    /******** after test delete  ******/
+    height: 500px;
+    background: rgb(27, 26, 26);
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.logIn {
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+}
+
+/*********** sign up and log in buttons    ***********/
+
+
+.sign-block {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.signUp-link {
+    background: rgb(74, 77, 74);
+    color: white;
+    transition: background-color .3s ease-out;
+    border:none;
+    outline:none;
+    padding: 3% 15%;
+}
+
+
+.signUp-link:hover {
+    background: rgb(92, 216, 92);
+}
+
+
+.active {
+    background: rgb(89, 179, 89) !important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+
+
+.logIn-link {
+    padding: 3% 15%;
+    color: white;
+    background: rgb(74, 77, 74);
+    transition: background-color .3s ease-out;
+    border:none;
+    outline:none;
+   
+}
+
+.logIn-link:hover {
+    background: rgb(92, 216, 92);
+}
+
+
+
+/**********  sign up heading  ***********/
+
+.signUp-heading {
+    color: rgb(241, 229, 229);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+/***********  sign up inputs    ************/
+
+input {
+    background:rgb(27, 26, 26);
+    outline:none;
+    border:1px solid rgb(192, 209, 192);
+}
+
+.name-block {
+    display: flex;
+    justify-content: space-between;
+    width:92%;
+    margin: 0 auto;
+}
+.name-block > *:focus {
+    border:1px solid rgb(89, 179, 89);
+}
+
+.firstName {
+    padding: 10px 20px;
+    width: 40%;
+}
+
+.lastName {
+    padding: 10px 20px;
+    width: 40%;
+}
+
+.other-block {
+    display: flex;
+    flex-direction: column;
+    width:92%;
+    margin: 0 auto;
+}
+
+.other-block > input {
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.other-block > input:focus {
+    border:1px solid rgb(89, 179, 89);
+}
+
+.signUp-btn {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background: rgb(89, 179, 89);
+    color: white;
+    font-size: 30px;
+    border:none;
+    transition: background-color .3s ease-out;
+    margin-bottom: 60px;
+    outline: none;
+}
+
+.signUp-btn:hover {
+    background: rgb(15, 107, 15);
+    color: white; 
+}
+
+
+/*********  Log In   **********/
+
+.forgetPass {
+    color: rgb(89, 179, 89);
+    padding-left: 76%;
+    padding-top: 20px;
+}
+
+.forgetPass:hover {
+    color: rgb(233, 233, 233);
+}
+
+input {
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
